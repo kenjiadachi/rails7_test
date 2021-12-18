@@ -1,0 +1,16 @@
+base_url: 'http://localhost:3000/'
+google:
+  gtm_id: 'GTM-HOGEHOGE'
+aws:
+  region: 'ap-northeast-1'
+  backet_name: ''
+slack:
+  webhook_url: ''
+  contact:
+    channel: '#_staging_contact_notifications'
+    username: '[stg]お知らせbot'
+  error:
+    channel: '#_staging_error_notifications'
+    username: '[stg]エラーbot'
+host: 'localhost'
+port: 3000

@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.format": "rubocop",
+  "[ruby]": {
+    "editor.formatOnSave": true
+  },
+  "cSpell.words": [
+    "Anxj",
+    "zipcode"
+  ]
+}

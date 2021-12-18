@@ -51,9 +51,38 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+# ridgepole
+gem 'ridgepole'
+
+# use haml
+gem 'haml-rails'
+
+# set dotenv
+gem 'dotenv-rails'
+
+# for env
+gem 'config'
+
+# for notification
+gem 'slack-notifier'
+
+# seed data
+gem 'seed-fu'
+
+# error notification
+gem 'exception_notification'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  # testツール
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  # デバッグツール
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  # 静的コード解析
+  gem 'rubocop'
 end
 
 group :development do
